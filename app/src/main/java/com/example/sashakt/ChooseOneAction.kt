@@ -17,6 +17,11 @@ class ChooseOneAction : AppCompatActivity() {
         }
         SellOption.setOnClickListener {
             val intent = Intent(this, SellingInstructions::class.java)
+            startActivity(intent)
+        }
+        balance.setOnClickListener {
+            val intent = Intent(this, AccountHolder::class.java)
+            startActivity(intent)
         }
     }
 }

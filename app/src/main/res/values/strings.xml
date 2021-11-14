@@ -5,4 +5,14 @@
     <string name="start">Start</string>
     <string name="play_video">Play Recorded Video</string>
     <string name="instructions">Click on the start button to start recording. Then teach your skill.When finished, click on the stop button to stop recording.</string>
+    <string name="account_holder_name">Enter Bank Account Holder Name</string>
+    <string name="account_holder_namee">Account Holder Name</string>
+    <string name="branch_name">Branch Name</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="enter_branch_name">Enter Branch Name</string>
+    <string name="enter_name_of_the_bank">Enter Name of the Bank</string>
+    <string name="account_number">Account Number</string>
+    <string name="enter_you_bank_account_number">Enter you Bank Account Number</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="enter_ifsc_code">Enter IFSC code</string>
 </resources>

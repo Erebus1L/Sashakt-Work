@@ -6,50 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".TeachingInstructions"
     android:background="#00C2CB">
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:layout_constraintTop_toTopOf="parent"
-    android:id="@+id/teaching_instruction"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    android:text="@string/instruction_to_teach"
-    android:padding="16dp"
-    android:textSize="32sp"
-    android:textStyle="normal|bold"
-    android:background="@android:color/holo_red_light"
-    android:textColor="@color/black"
-    />
 
     <TextView
+        android:id="@+id/teaching_instruction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ready"
-        android:text="@string/ready"
-        app:layout_constraintTop_toBottomOf="@id/teaching_instruction"
-        app:layout_constraintStart_toStartOf="parent"
+        android:background="@android:color/holo_red_light"
+        android:padding="16dp"
+        android:text="@string/instruction_to_teach"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp"
-        android:textSize="28sp"
-        android:background = "@color/cardview_dark_background"
-        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/cardview_dark_background"
         android:padding="10dp"
+        android:text="@string/ready"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/teaching_instruction"
 
         />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/readyButton"
+        android:layout_width="222dp"
+        android:layout_height="188dp"
         android:layout_marginBottom="16dp"
+        android:elevation="10dp"
+        android:src="@drawable/rightready"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ready"
-        android:src="@drawable/rightready"
-        android:elevation="10dp"
-        android:id="@+id/readyButton"
-        />
-
+        app:layout_constraintVertical_bias="0.043" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
