@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sashakt</string>
+    <string name="instruction_to_teach">Record your video to teach your skills to the other people. You will get money if someone watches your video.</string>
+    <string name="ready">Are you ready?</string>
+    <string name="start">Start</string>
+    <string name="play_video">Play Recorded Video</string>
+    <string name="instructions">Click on the start button to start recording. Then teach your skill.When finished, click on the stop button to stop recording.</string>
+</resources>
