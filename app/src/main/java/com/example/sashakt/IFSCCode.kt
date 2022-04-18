@@ -10,7 +10,7 @@ class IFSCCode : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ifsccode)
         next.setOnClickListener{
-            val intent = Intent(this, CurrentEarnings::class.java)
+            val intent = Intent(this, SellingItem::class.java)
             startActivity(intent)
         }
     }
