@@ -20,7 +20,7 @@ class ChooseOneAction : AppCompatActivity() {
             startActivity(intent)
         }
         balance.setOnClickListener {
-            val intent = Intent(this, AccountHolder::class.java)
+            val intent = Intent(this, CurrentEarnings::class.java)
             startActivity(intent)
         }
     }
